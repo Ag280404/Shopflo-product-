@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.card {
+  @apply rounded-lg border border-slate-200 bg-white p-4 shadow-sm;
+}
+
+.kpi {
+  @apply text-2xl font-semibold text-slate-900;
+}
+
+.kpi-label {
+  @apply text-sm text-slate-500;
+}

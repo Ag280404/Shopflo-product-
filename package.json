@@ -1,0 +1,11 @@
+{
+  "name": "dropoff-detective",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"python -m uvicorn backend.main:app --reload\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "8.2.2"
+  }
+}

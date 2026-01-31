@@ -1,0 +1,9 @@
+node_modules/
+frontend/node_modules/
+.env
+__pycache__/
+*.pyc
+*.sqlite
+*.db
+.DS_Store
+.next/
